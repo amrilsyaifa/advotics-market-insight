@@ -1,0 +1,34 @@
+@import "src/Reusables/Styles/Variables";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .header {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    .header-text {
+      font-family: $secondary_font;
+      font-size: 40px;
+      color: $gray500;
+    }
+  }
+  .wrap-info {
+    margin-top: 31px;
+    margin-top: 16px;
+  }
+  .wrap-list {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 16px;
+    .chart {
+      width: calc(100% - 650px);
+    }
+    .list {
+      width: 275px;
+    }
+  }
+}
